@@ -11,9 +11,9 @@
     <div class="flex flex-col sm:flex-row justify-between items-center max-w-6xl mx-4 lg:mx-8 xl:mx-auto mt-8 pt-5 space-y-5 sm:space-y-0 w-screen border-t border-gray-800">
       <p class="font-light text-sm">© 2020 Colorify Bot. All rights reserved</p>
 
-      <button class="bg-gray-700 rounded-md font-light text-sm border-transparent px-8 py-3">
+      <!-- <button class="bg-gray-700 rounded-md font-light text-sm border-transparent px-8 py-3">
         🇺🇦 Українська
-      </button>
+      </button> -->
     </div>
   </div>
 </template>

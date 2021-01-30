@@ -10,12 +10,12 @@
             <p class="text-gray-800 font-extrabold text-4xl sm:text-5xl">{{user.first_name}} {{user.last_name}}</p>
           </div>
         </div>
-        <div class="">
-          <p class="mt-4 text-base text-justify text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl md:text-xl lg:mx-0">
+        <div class="mt-4 text-base">
+          <p class="text-justify text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl md:text-xl lg:mx-0">
             To buy premium click <b>Buy</b> button
           </p>
           <button
-            class="px-8 py-4 border border-transparent text-base font-medium rounded-full text-white bg-teal-500 hover:bg-teal-700 transition-all duration-300 shadow-xl"
+            class="mt-4 px-8 py-4 border border-transparent font-medium rounded-full text-white bg-teal-500 hover:bg-teal-700 transition-all duration-300 shadow-xl"
             @click="pay()">
             Buy
           </button>
