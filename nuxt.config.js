@@ -14,7 +14,8 @@ export default {
   css: [
   ],
   plugins: [
-    { src: "plugins/vue-twentytwenty.js", mode: 'client' }
+    { src: "plugins/vue-twentytwenty.js", mode: 'client' },
+    { src: "plugins/vue-telegram-login.js", mode: 'client' }
   ],
   components: true,
   buildModules: ['@nuxtjs/tailwindcss'],
